@@ -1,0 +1,6 @@
+{
+  "op": "belief.assert",
+  "statement": "SurrealDB can unify graph and vector retrieval",
+  "confidence": 0.91,
+  "source": "memory:surrealdb-research"
+}
