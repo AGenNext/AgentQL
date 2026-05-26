@@ -1,0 +1,29 @@
+{
+  "name": "@agennext/agentql",
+  "version": "0.1.0",
+  "description": "A constrained agent-friendly query layer that compiles safe AgentQL JSON into SurrealQL.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "agentql": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "example:memory": "node dist/cli.js examples/memory-search.json",
+    "example:task": "node dist/cli.js examples/task-create.json"
+  },
+  "keywords": [
+    "agentql",
+    "surrealdb",
+    "surrealql",
+    "agents",
+    "memory",
+    "graphrag"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
