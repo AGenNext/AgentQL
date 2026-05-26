@@ -1,0 +1,8 @@
+{
+  "op": "memory.search",
+  "query": "SurrealDB vector search and graph traversal",
+  "agent": "researcher",
+  "mode": "semantic",
+  "expand": ["mentions", "derived_from"],
+  "limit": 8
+}
