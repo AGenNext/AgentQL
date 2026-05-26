@@ -1,0 +1,5 @@
+{
+  "op": "task.create",
+  "objective": "Analyze SurrealDB vector index tradeoffs",
+  "assign_to": "researcher"
+}
