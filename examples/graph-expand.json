@@ -1,0 +1,6 @@
+{
+  "op": "graph.expand",
+  "from": "memory:market-analysis",
+  "relations": ["mentions", "supports"],
+  "depth": 2
+}
